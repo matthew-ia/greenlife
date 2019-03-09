@@ -1,0 +1,45 @@
+@import 'variables';
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+body {
+  color: $text-color;
+  background-color: $background;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+}
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-headings;
+}
+h1 {
+  font-size: $font-size-h1;
+}
+h2 {
+  font-size: $font-size-h2;
+}
+h3 {
+  font-size: $font-size-h3;
+}
+
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+
+// Small screen / tablet
+
+// Medium screen / desktop
+
+// Large screen / wide desktop
+
+
+// So media queries don't overlap when required, provide a maximum
