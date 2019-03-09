@@ -1,20 +1,14 @@
-# Planter
+# GreenLife Family Farms Website
 
-<p align='center'><img src='./pub/img/planter-logo.svg' width='200'></p>
+Client:   Jeff & Dustin
 
-<p align='center'><i>An HTML, CSS, and JS boilerplate for creatives.</i></p>
+Project: A temporary website to promote their launch event.
+
 
 ## Overview
+We're making a website for GreenLife Family Farm's launch event on May 18th. They want to start promoting the event with their website asap, so our deadline is March 14th for this iteration of the site.
 
-Planter is for folks who want to quickly get started making a website and utilize Sass and JS without a framework, while retaining the simplicity of having little-to-no setup required. It includes a straightforward project directory layout. The `pub/` directory is for your public facing files (html, assets like images, compiled CSS and JS files, etc.) The `src/` directory is for source code, such as your Sass stylesheets and JavaScript files.
-
-In the parent directory, the `gulpfile.js` is already set up to watch the Sass and JS files in `src/` and build their respective output files to `pub/`.
-
-Both the Sass and JS source files are examples just to get you started; they don't include code that'll break any styles or functions somewhere else in the code even if you completely replaced their contents.
-
-(However, `_planter.scss` _does_ have styling that applies certain custom variables to global element styles.)
-
-## Getting Started
+## Planter Guide
 
 Get started with Planter by downloading the zip (probably the best option for new projects so you can initialize your own git history.)
 

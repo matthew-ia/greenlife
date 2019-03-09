@@ -1,0 +1,45 @@
+#home {
+  padding: calc(40vh - #{$nav-height}) 8%;
+  height: 120vh; //TODO: Delete later
+
+  #date-box {
+    display: inline-block;
+    padding: 12px 26px;
+    border: 5px solid $brand-3;
+    border-radius: 7px
+  }
+  #ticket-box {
+    display: inline-block;
+    padding: 12px 26px;
+    border: 5px solid $brand-4;
+    border-radius: 7px
+  }
+  .circle-crop {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    z-index: 10;
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border-radius: 50%;
+    img {
+      height: 500px;
+      width: 500px;
+    }
+  }
+
+  #grand-opening {
+    .circle-crop {
+      top: -34vw;
+      right: -20vw;
+      height: 75vw;
+      width: 75vw;
+      img {
+        height: 75vw;
+        width: 75vw;
+      }
+    }
+  }
+}

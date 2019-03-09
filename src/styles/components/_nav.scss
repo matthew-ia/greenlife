@@ -1,0 +1,28 @@
+#nav {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(#fff, .85);
+
+  .nav-content {
+    opacity: 1;
+    padding: 0 8%;
+    height: $nav-height;
+  }
+
+  .logo {
+    height: 47px;
+    width: 356px;
+    background-color: $brand-3;
+    position: relative;
+    top: 50%;
+    transform: translateY(-52%);
+  }
+
+  .inline-content {
+    position: relative;
+    top: 50%;
+    float: right;
+    transform: translateY(-52%);
+  }
+}
