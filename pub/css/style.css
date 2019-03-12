@@ -107,6 +107,7 @@ footer {
   #home .card p {
     padding: 0; }
   #home .card .text {
+    float: none;
     display: inline-block;
     vertical-align: top; }
   #home .card .icon {
