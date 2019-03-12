@@ -1,0 +1,22 @@
+footer {
+  color: white;
+  .main-footer {
+    padding: 2% 0;
+    text-align: center;
+    background-color: black;
+    a.primary-button {
+      display: inline-block;
+      margin: 24px 0 42px;
+    }
+  }
+  .secondary-footer {
+    background-color: lighten(black, 20%);
+    padding: 4px 0;
+    text-align: center;
+    #copyright-credits {
+      span {
+        padding: 0 8px;
+      }
+    }
+  }
+}

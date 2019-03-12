@@ -6,6 +6,16 @@ body {
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    margin: 0;
+    padding: 0; }
+
 body {
   color: #000;
   background-color: #fff;
@@ -16,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: inherit; }
 
 h1 {
-  font-size: 2rem; }
+  font-size: 5rem; }
 
 h2 {
   font-size: 1.6rem; }
@@ -24,8 +34,12 @@ h2 {
 h3 {
   font-size: 1.2rem; }
 
+p {
+  padding: 12px 0; }
+
 #nav {
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100;
   background-color: rgba(255, 255, 255, 0.85); }
@@ -46,9 +60,24 @@ h3 {
     float: right;
     transform: translateY(-52%); }
 
+footer {
+  color: white; }
+  footer .main-footer {
+    padding: 2% 0;
+    text-align: center;
+    background-color: black; }
+    footer .main-footer a.primary-button {
+      display: inline-block;
+      margin: 24px 0 42px; }
+  footer .secondary-footer {
+    background-color: #333333;
+    padding: 4px 0;
+    text-align: center; }
+    footer .secondary-footer #copyright-credits span {
+      padding: 0 8px; }
+
 .primary-button {
   text-transform: uppercase;
-  min-width: 150px;
   padding: 15px 22px;
   color: #fff;
   background-color: #000;
@@ -56,39 +85,72 @@ h3 {
   border-radius: 5px;
   font-size: 18px; }
 
-.page-container {
-  padding: 0 8%; }
+#home section {
+  padding: 2% 8%;
+  margin: 0 auto; }
+  #home section .section-image {
+    float: left;
+    width: 45%;
+    height: 20%; }
+  #home section .text {
+    float: left; }
 
-#home {
-  padding: calc(40vh - 127px) 8%;
-  height: 120vh; }
-  #home #date-box {
+#home .card {
+  display: inline-block;
+  padding: 24px 42px;
+  border: 5px solid #bfbfbf;
+  border-radius: 7px;
+  text-align: left; }
+  #home .card h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase; }
+  #home .card p {
+    padding: 0; }
+  #home .card .text {
     display: inline-block;
-    padding: 12px 26px;
-    border: 5px solid gray;
-    border-radius: 7px; }
-  #home #ticket-box {
-    display: inline-block;
-    padding: 12px 26px;
-    border: 5px solid #bfbfbf;
-    border-radius: 7px; }
-  #home .circle-crop {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    height: 500px;
-    width: 500px;
-    background-color: red;
-    border-radius: 50%; }
-    #home .circle-crop img {
-      height: 500px;
-      width: 500px; }
-  #home #grand-opening .circle-crop {
-    top: -34vw;
-    right: -20vw;
-    height: 75vw;
-    width: 75vw; }
-    #home #grand-opening .circle-crop img {
-      height: 75vw;
-      width: 75vw; }
+    vertical-align: top; }
+  #home .card .icon {
+    width: 92px;
+    height: 92px;
+    background-color: gray; }
+
+#home #grand-opening {
+  height: calc(100vh - 127px);
+  padding-top: 127px;
+  padding-bottom: 0;
+  background-color: lightblue; }
+  #home #grand-opening .content {
+    text-align: center;
+    margin: 32px auto; }
+    #home #grand-opening .content #info-cards {
+      margin: 32px auto; }
+    #home #grand-opening .content #scroll-down {
+      position: absolute;
+      bottom: 4%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px; }
+
+#home #live-music {
+  height: 300px;
+  background: blue; }
+
+#home #yoga {
+  height: 300px;
+  background: purple; }
+  #home #yoga .section-image {
+    float: right; }
+  #home #yoga .text {
+    float: right;
+    text-align: right; }
+
+#home #other-list {
+  height: 300px;
+  background: yellow; }
+  #home #other-list ul {
+    list-style: none; }
+    #home #other-list ul li h2 span {
+      color: red; }
+
+#home #veterans {
+  text-align: center; }
