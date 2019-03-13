@@ -1,5 +1,6 @@
 #home {
   //padding:  0;
+  //test
   //height: 120vh; //TODO: Delete later
 
   section {
@@ -7,19 +8,22 @@
     margin: 0 auto;
     .section-image {
       float: left;
-      width: 45%;
-      height: 20%;
+      width: 30%; // needed to adjust the width and height due to image ratio distortion
+      margin-right: 5vw;
     }
     .text {
       float: left;
     }
   }
   .card {
+    margin-right: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
     padding: 24px 42px;
-    border: 5px solid $brand-4;
+    //border: 5px solid $brand-4;
     border-radius: 7px;
     text-align: left;
+    background-color: white;
     h2 {
       font-size: $font-size-h3;
       text-transform: uppercase;
@@ -33,24 +37,34 @@
       vertical-align: top;
     }
     .icon {
+      margin-right: 1vw;
       width: 92px;
       height: 92px;
-      background-color: gray;
+      //background-color: gray;
     }
   }
 
   #grand-opening {
     height: calc(100vh - #{$nav-height});
-    padding-top: #{$nav-height};
+    padding-top: 200px; //altered the spacing a bit, feel free to change the actual variable if you want
+    //padding-top: #{$nav-height};
     padding-bottom: 0;
-    background-color: lightblue;
+    background-position-y: -150px;
+    background-size: cover;
+    background-image: url('/Users/Gluf/Documents/GitHub/greenlife/pub/img/header.jpg');
     .content {
       text-align: center;
       margin: 32px auto;
       #info-cards {
         margin: 32px auto;
       }
+      h1 {
+        font-size: 7rem; //font-size just for 'Grand Opening'
+        color: $gray-4;
+        text-shadow: 2px 2px 10px #000000;
+      }
       #scroll-down {
+        font-size: 1.5rem;
         position: absolute;
         bottom: 4%;
         left: 50%;
@@ -68,6 +82,7 @@
   #yoga {
     .section-image {
       float: right;
+      margin-left: 5vw;
     }
     .text {
       float: right;
@@ -80,6 +95,10 @@
   #other-list {
     height: 300px;
     background: yellow;
+    .section-image {
+      height: 300px;
+      width: auto;
+      //clip-path: inset(0px 0px 400px 0px); //Possible fix if you want to have the image larger but just clip it.
     ul {
       list-style: none;
       li {
@@ -92,14 +111,14 @@
       }
     }
     #twentysix-acres-logo {
-      //TODO: size
+      width: 4vw;
     }
   }
 
   #veterans {
     text-align: center;
     #purple-heart-homes-logo {
-      //TODO: size
+      //deafult size
     }
   }
 }

@@ -1,28 +1,54 @@
 
 
 //== Colors
-//
-//## Main colors, notification colors, and grays for use across Bootstrap.
 
-$brand-1:                   #000;
-$brand-2:                   #fff;
-$brand-3:                   lighten($brand-1, 50%);
-$brand-4:                   lighten($brand-1, 75%);
-$brand-5:                   #2ccc71;
+
+//Greenlife Website Brand Colors 1 = Darkest 4 = Lightest
+
+$gray-1: #232323;
+$gray-2: #606960;
+$gray-3: #C7CEC7;
+$gray-4: #EDF4ED;
+
+$green-1: #006838;
+$green-2: #2AB776;
+$green-3: #8DDEB9;
+$green-4: #DAF7EA;
+
+$red-1: #CC3B3B;
+$red-2: #E83939;
+$red-3: #E08989;
+$red-4: #F7C3C3;
+
+$blue-1: #3084E5;
+$blue-2: #3190FD;
+$blue-3: #87B7EF;
+$blue-4: #C6E0FD;
+
+$yellow-1: #FFD300;
+$yellow-2: #FFEB00;
+$yellow-3: #FDF29E;
+$yellow-4: #FFFAD1;
 
 $background:                #fff;
-$text-color:                $brand-1;
+$text-color:                $gray-1;
+
+
+
 
 
 //== Typography
-//
-//## Font, line-height, and color for body text, headings, and more.
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900');
 
-$font-family-primary:       "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-secondary:     Georgia, "Times New Roman", Times, serif;
-$font-family-monospace:     Menlo, Monaco, Consolas, "Courier New", monospace;
-$font-family-base:          $font-family-primary;
+@import url('https://fonts.googleapis.com/css?family=Arvo|PT+Mono');
+@font-face {
+  font-family: woodfordbourne-bold;
+  src: url(/Users/Gluf/Documents/GitHub/greenlife/pub/img/woodfordbourne-bold.otf);
+  font-weight: bold;
+}
+
+$body-headings: woodfordbourne-bold;
+$body-copy: Arvo;
+$body-link: PT Mono;
 
 $font-headings:             inherit;
 $font-size-base:            16px;
