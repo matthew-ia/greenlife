@@ -3,14 +3,14 @@ footer {
   .main-footer {
     padding: 2% 0;
     text-align: center;
-    background-color: black;
+    background-color: $gray-1;
     a.primary-button {
       display: inline-block;
       margin: 24px 0 42px;
     }
   }
   .secondary-footer {
-    background-color: lighten(black, 20%);
+    background-color: lighten($gray-1, 20%);
     padding: 4px 0;
     text-align: center;
     #copyright-credits {
