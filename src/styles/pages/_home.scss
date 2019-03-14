@@ -17,7 +17,7 @@
   }
 
   @keyframes Intro {
-    0% {opacity: 0; margin-top: 2vh;}
+    0% {opacity: 0; margin-top: 10vh;}
     100% {opacity: 1.0; margin-top: 0;}
   }
 
@@ -26,8 +26,8 @@
     opacity: 0;
     animation-name: Intro;
     animation-fill-mode: forwards;
-    animation-delay: 1.25s;
-    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-duration: 1s;
     margin-right: 2vw;
     margin-bottom: 2vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -74,7 +74,7 @@
       opacity: 0;
       animation-name: Intro;
       animation-fill-mode: forwards;
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-delay: .75s;
       text-align: center;
       margin: 32px auto;
@@ -92,8 +92,8 @@
         opacity: 0;
         animation-name: Intro;
         animation-fill-mode: forwards;
-        animation-duration: 2s;
-        animation-delay: 3s;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
         font-size: 1.5rem;
         position: absolute;
         bottom: 0;
