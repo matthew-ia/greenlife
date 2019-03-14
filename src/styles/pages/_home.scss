@@ -4,15 +4,19 @@
   //height: 120vh; //TODO: Delete later
 
   section {
-    padding: 2% 8%;
+    padding: 2% 0;
     margin: 0 auto;
     .section-image {
       float: left;
-      width: 30%; // needed to adjust the width and height due to image ratio distortion
-      margin-right: 5vw;
+      width: 50%;
+      img {
+        max-height: 600px;
+      }
     }
     .text {
       float: left;
+      width: 50%;
+      div {padding: 24px;}
     }
   }
 
@@ -21,6 +25,13 @@
     100% {opacity: 1.0; margin-top: 0;}
   }
 
+  .clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+  //* html .clearfix             { zoom: 1; } /* IE6 */
+  //*:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
   .card {
     opacity: 0;
@@ -106,7 +117,6 @@
 
   #live-music {
     height: 300px;
-    //background: blue;
   }
 
   #yoga {
@@ -119,20 +129,22 @@
       text-align: right;
     }
     height: 300px;
-    //background: purple;
   }
 
   #other-list {
     height: 300px;
-    //background: yellow;
     ul {
       list-style: none;
       li {
         h2 {
           // TODO: Italic
           span {
-            color: red;
+            color: $green-2;
+            margin-right: 32px;
           }
+        }
+        p {
+          padding-left: 32px;
         }
       }
     }
@@ -142,6 +154,7 @@
   }
 
   #veterans {
+    padding: 16% 0 6%;
     text-align: center;
     #purple-heart-homes-logo {
       //deafult size

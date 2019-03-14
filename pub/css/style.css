@@ -46,13 +46,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Woodford Bourne Bold", sans-serif; }
 
 h1 {
-  font-size: 5rem; }
+  font-size: 5rem;
+  text-transform: uppercase; }
 
 h2 {
-  font-size: 1.6rem; }
+  font-size: 3.5rem;
+  text-transform: uppercase; }
 
 h3 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  text-transform: uppercase; }
 
 p {
   font-family: Arvo;
@@ -109,14 +112,18 @@ footer {
   font-size: 18px; }
 
 #home section {
-  padding: 2% 8%;
+  padding: 2% 0;
   margin: 0 auto; }
   #home section .section-image {
     float: left;
-    width: 30%;
-    margin-right: 5vw; }
+    width: 50%; }
+    #home section .section-image img {
+      max-height: 600px; }
   #home section .text {
-    float: left; }
+    float: left;
+    width: 50%; }
+    #home section .text div {
+      padding: 24px; }
 
 @keyframes Intro {
   0% {
@@ -125,6 +132,11 @@ footer {
   100% {
     opacity: 1.0;
     margin-top: 0; } }
+
+#home .clearfix:after {
+  display: table;
+  content: "";
+  clear: both; }
 
 #home .card {
   opacity: 0;
@@ -211,9 +223,13 @@ footer {
   #home #other-list ul {
     list-style: none; }
     #home #other-list ul li h2 span {
-      color: red; }
+      color: #2AB776;
+      margin-right: 32px; }
+    #home #other-list ul li p {
+      padding-left: 32px; }
   #home #other-list #twentysix-acres-logo {
     width: 4vw; }
 
 #home #veterans {
+  padding: 16% 0 6%;
   text-align: center; }
