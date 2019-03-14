@@ -149,8 +149,9 @@ footer {
   margin: 0 auto; }
   #home section .section-image {
     float: left;
-    width: 45%; }
+    width: 45vw; }
     #home section .section-image img {
+      width: 40vw;
       max-height: 600px;
       border-top-right-radius: 24px;
       border-bottom-right-radius: 24px; }
