@@ -39,16 +39,37 @@ $text-color:                $gray-1;
 
 //== Typography
 
-@import url('https://fonts.googleapis.com/css?family=Arvo|PT+Mono');
+//** Arvo
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+
+
+//** Woodford Bourne
 @font-face {
-  font-family: woodfordbourne-bold;
-  src: url(/Users/Gluf/Documents/GitHub/greenlife/pub/img/woodfordbourne-bold.otf);
+  font-family: "Woodford Bourne Bold";
+  src: url(../fonts/woodfordbourne-bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Woodford Bourne Italic";
+  src: url(../fonts/woodfordbourne-italic.otf);
+  font-weight: italic;
+}
+
+//** PT Mono
+@font-face {
+  font-family: "PT Mono Regular";
+  src: url(../fonts/PT-Mono-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PT Mono Bold";
+  src: url(../fonts/PT-Mono-Bold.ttf);
   font-weight: bold;
 }
 
-$body-headings: woodfordbourne-bold;
+$body-headings: "Woodford Bourne Bold", sans-serif;
 $body-copy: Arvo;
-$body-link: PT Mono;
+$body-link: "PT Mono Bold";
 
 $font-headings:             inherit;
 $font-size-base:            16px;

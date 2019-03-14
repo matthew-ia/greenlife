@@ -1,7 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Arvo|PT+Mono");
+@import url("https://fonts.googleapis.com/css?family=Arvo:400,700");
 @font-face {
-  font-family: woodfordbourne-bold;
-  src: url(/Users/Gluf/Documents/GitHub/greenlife/pub/img/woodfordbourne-bold.otf);
+  font-family: "Woodford Bourne Bold";
+  src: url(../fonts/woodfordbourne-bold.otf);
+  font-weight: bold; }
+
+@font-face {
+  font-family: "Woodford Bourne Italic";
+  src: url(../fonts/woodfordbourne-italic.otf);
+  font-weight: italic; }
+
+@font-face {
+  font-family: "PT Mono Regular";
+  src: url(../fonts/PT-Mono-Regular.ttf);
+  font-weight: normal; }
+
+@font-face {
+  font-family: "PT Mono Bold";
+  src: url(../fonts/PT-Mono-Bold.ttf);
   font-weight: bold; }
 
 p {
@@ -28,7 +43,7 @@ body {
   font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: woodfordbourne-bold; }
+  font-family: "Woodford Bourne Bold", sans-serif; }
 
 h1 {
   font-size: 5rem; }
@@ -45,7 +60,7 @@ p {
 
 a {
   color: #3084E5;
-  font-family: PT Mono; }
+  font-family: "PT Mono Bold"; }
 
 #nav {
   position: fixed;
@@ -147,7 +162,7 @@ footer {
   background-repeat: no-repeat;
   background-position-y: -150px;
   background-size: cover;
-  background-image: url("/Users/Gluf/Documents/GitHub/greenlife/pub/img/header.jpg"); }
+  background-image: url("../img/header_edit3.jpg"); }
   #home #grand-opening #circleLogo {
     width: 250px; }
   #home #grand-opening .content {

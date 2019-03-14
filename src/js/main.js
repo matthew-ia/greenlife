@@ -1,4 +1,4 @@
-import { MyClass, SOMEOTHER } from './planter';
+/**
 
 let x = 100;
 let y = 200;
@@ -11,3 +11,5 @@ let p = 20;
 let o = SOMEOTHER;
 
 console.log(o);
+
+*/
