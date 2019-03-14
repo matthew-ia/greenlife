@@ -71,6 +71,19 @@ a {
   font-family: "PT Mono Bold";
   text-decoration: none; }
 
+@media all and (max-width: 1280px) {
+  #info-cards {
+    width: 50%;
+    margin: 0 auto; }
+    #info-cards .card {
+      max-width: 300px;
+      margin: 32px auto !important;
+      display: block !important; } }
+
+@media all and (max-width: 736px) {
+  #nav .logo {
+    height: 42px !important; } }
+
 #nav {
   position: fixed;
   top: 0;
@@ -204,6 +217,7 @@ footer {
   padding-bottom: 0;
   background-repeat: no-repeat;
   background-position-y: -150px;
+  background-position: center;
   background-size: cover;
   background-image: url("../img/header_edit3.jpg"); }
   #home #grand-opening #circleLogo {
