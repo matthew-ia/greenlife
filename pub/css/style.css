@@ -167,7 +167,9 @@ footer {
   margin-right: 40px;
   border-radius: 7px;
   text-align: left;
-  background-color: white; }
+  background-color: white;
+  transition: all 1s;
+  margin-top: 0; }
   #home .card h2 {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -216,7 +218,7 @@ footer {
     #home #grand-opening .content h1 {
       font-size: 7rem;
       color: #EDF4ED;
-      text-shadow: 2px 2px 10px #232323; }
+      text-shadow: 8px 8px 0px #232323; }
     #home #grand-opening .content p.main-text {
       font-family: "Woodford Bourne Regular", sans-serif;
       font-size: 1.7rem;
