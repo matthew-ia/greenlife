@@ -79,10 +79,15 @@ a {
   }
   #home {
     #grand-opening {
-      width: 100%;
+      width: 100%; //not sure why this isn't working
       height: 200vh !important;
-      background-image: none !important;
   }
+    #scroll-down{
+      display:contents;
+    }
+    .section-image {
+      float; none;
+    }
 }
 }
 @media all and (max-width: 480px) {
