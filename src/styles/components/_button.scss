@@ -7,4 +7,12 @@
   border: 3px solid $blue-3;
   border-radius: 5px;
   font-size: 18px;
+  transition: 0.2s;
+  &:hover {
+    border: 3px solid $blue-1;
+  }
+}
+
+#nav-cta:hover {
+  //border: 3px solid $gray-1;
 }
