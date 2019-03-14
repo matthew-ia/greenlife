@@ -54,6 +54,11 @@ $text-color:                $gray-1;
   src: url(../fonts/woodfordbourne-italic.otf);
   font-weight: italic;
 }
+@font-face {
+  font-family: "Woodford Bourne Regular";
+  src: url(../fonts/woodfordbourne-regular.otf);
+  font-weight: normal;
+}
 
 //** PT Mono
 @font-face {
