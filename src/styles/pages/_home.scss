@@ -8,18 +8,18 @@
     margin: 0 auto;
     .section-image {
       float: left;
-      width: 45vw;
+      width: 45%;
       img {
-        width: 40vw;
-        //max-height: 600px;
+        max-height: 600px;
         border-top-right-radius: 24px;
         border-bottom-right-radius: 24px;
-        //max-width: 100%;
+        max-width: 100%;
       }
     }
     .text {
       float: left;
       width: 50%;
+      padding-left: 64px;
       div {
         padding-top: 8vh;
       }
@@ -97,8 +97,6 @@
     background-color: $gray-4;
     padding-bottom: 0;
     background-repeat: no-repeat;
-    background-position-y: -150px;
-
     background-size: cover;
     background-image: url('../img/header_edit3.jpg');
     .content {
@@ -112,12 +110,17 @@
       #info-cards {
         margin: 32px auto;
       }
+      &:after {
+        display: block;
+        content: "";
+        clear: both;
+      }
       h1 {
         font-size: 7rem; //font-size just for 'Grand Opening'
         color: $gray-4;
         text-shadow: 8px 8px 0px $gray-1;
       }
-      p.main-text {
+      .main-text {
         font-family: "Woodford Bourne Regular", sans-serif;
         font-size: 1.7rem;
         color: white;
@@ -136,6 +139,10 @@
         left: 50%;
         transform: translateX(-50%);
         width: 200px;
+      }
+      .main-text {
+        margin: 0 auto;
+        max-width: 40%;
       }
     }
   }
@@ -156,19 +163,32 @@
   }
 
   #yoga {
+    h2 {
+      span {
+        display: block;
+      }
+    }
     .section-image {
       float: right;
+      //padding-left: 64px;
       img {
-        float: right;
-        border-radius: 0;
-        border-top-left-radius: 24px;
-        border-bottom-left-radius: 24px;
+        //float: right;
+        //padding-left: 64px;
+        margin-left: 64px;
+        border-radius: 24px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
       }
 
     }
     .text {
       float: right;
       text-align: right;
+      p {
+        float: right;
+        max-width: 65%;
+        line-height: 1.8;
+      }
     }
   }
 
@@ -191,8 +211,6 @@
         }
         p {
           padding-left: 64px;
-        }
-        p {
           img {
             vertical-align: middle;
             padding: 0 12px;
@@ -213,8 +231,13 @@
   #veterans {
     padding: 12% 0 6%;
     text-align: center;
+    h2 {
+      max-width: 50%;
+      margin: 0 auto;
+    }
     p {
       padding: 5% 0 2% 0;
+      line-height: 1.8;
     }
     #purple-heart-homes-logo {
       max-width: 320px;

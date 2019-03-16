@@ -16,6 +16,11 @@ footer {
       display: inline-block;
       margin: 24px 0 42px;
     }
+    #contact-link a {
+      color: $gray-4 !important;
+      padding-bottom: 2px;
+      border-bottom: 2px solid white;
+    }
   }
   .secondary-footer {
     font-size: .8rem;

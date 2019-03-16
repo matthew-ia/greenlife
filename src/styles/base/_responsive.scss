@@ -1,0 +1,199 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+
+// Small screen / tablet
+
+// Medium screen / desktop
+
+// Large screen / wide desktop
+
+
+// So media queries don't overlap when required, provide a maximum
+
+
+
+@media screen and (max-width: 1690px) {
+}
+
+@media screen and (max-width: 1300px) {
+
+}
+@media screen and (max-width: 1280px) {
+  #home #grand-opening .content {
+    .main-text {
+      max-width: 65%;
+    }
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  #info-cards {
+    .card {
+      max-width: 300px;
+      margin: 32px auto;
+      display: block;
+    }
+  }
+  #home #grand-opening {
+    height: 100%;
+  }
+  #scroll-down {
+    display: none;
+  }
+  #nav {
+    .nav-content {
+      height: 98px;
+    }
+    .logo {
+      height: 50px !important;
+    }
+    .primary-button {
+      padding: 12px 16px;
+      font-size: 16px;
+    }
+  }
+  #home section {
+    padding: 6% 0;
+    .section-image {
+      img {
+        border-radius: 24px;
+        margin: 0 auto;
+        //max-height: 420px;
+        max-width: 100%;
+
+      }
+      float: none;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .text {
+      width: 80%;
+      margin: 0 auto;
+      float: none;
+      padding-left: 0;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  #home #yoga {
+    .section-image {
+      float: none;
+      img {
+        margin-left: 0;
+      }
+    }
+    .text {
+      float: none;
+      text-align: left;
+      p {
+        max-width: 100%;
+        float: none;
+      }
+    }
+  }
+  #home #other-list {
+    h2 {
+      font-size: 1.5rem;
+    }
+    ul li p {
+      padding-left: 45px;
+      span {
+        display: block;
+      }
+    }
+    ul li p.featured-vendor {
+      margin-top: 64px;
+      padding-left: 0;
+      height: 100%;
+      text-align: center;
+      line-height: normal;
+      font-weight: bold;
+      img {
+        padding: 16px 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 980px) {
+  #home #grand-opening .content {
+    .main-text {
+      font-size: 1.3rem;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 3rem;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+  #home #grand-opening {
+    padding-top: 92px;
+    padding-bottom: 64px;
+  }
+  #home section:nth-of-type(2) {
+    padding-top: 20%;
+  }
+  #home #veterans {
+    h2 {
+      max-width: 65%;
+      font-size: 1.6rem;
+      margin: 0 auto;
+    }
+    #purple-heart-homes-logo {
+      max-width: 180px;
+    }
+  }
+  #nav {
+    .nav-content {
+      height: 100%;
+    }
+    .logo {
+      height: 42px;
+      margin: 16px 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .primary-button {
+      padding: 12px 16px;
+      font-size: 16px;
+      display: none;
+    }
+  }
+  footer {
+    .main-footer {
+      padding: 8% 0 6%;
+      p {
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 1rem;
+      }
+      a.primary-button {
+        margin: 24px 0;
+      }
+    }
+    .secondary-footer {
+      font-size: .7rem;
+    }
+  }
+}
+@media screen and (max-width: 736px) {
+  #nav {
+    .logo {
+      height: 36px !important;
+    }
+  }
+  #home {
+    #grand-opening {
+      width: 100%; //not sure why this isn't working
+      //height: 200vh !important;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+
+}
