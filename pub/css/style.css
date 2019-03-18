@@ -324,6 +324,7 @@ footer {
   position: fixed; }
 
 #dittodigital #description {
+  line-height: 1.5;
   max-width: 500px;
   margin: auto; }
 
@@ -333,18 +334,15 @@ footer {
   position: absolute;
   background-color: white;
   border: 2px solid blue;
-  width: 800px;
-  height: 250px;
-  margin: -177px 0 0 -452px;
+  width: 50vw;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%; }
 
 @media only screen and (max-width: 900px) {
   #dittodigital .dittocard {
     padding: 50px;
-    width: 200px;
-    height: 400px;
-    margin: -252px 0 0 -152px; }
+    width: 60vw; }
   #dittodigital h1 {
     font-size: 3rem; }
   #dittodigital a {
